@@ -11,7 +11,7 @@ const MainContainer = () => {
   );
   return (
     <div
-      className="flex-1 flex flex-col items-center gap-4 w-full"
+      className="flex-1 flex flex-col items-center gap-4 w-full bg-[#F2EFE5]"
       onFocus={() => dispatch(classMenu())}
     >
       {!searchVideos && <ButtonList />}

@@ -13,7 +13,7 @@ const Sidebar = () => {
   const dispatch = useDispatch();
   return (
     isMenuOpen && (
-      <div className="p-4 flex flex-col gap-2 shadow-lg h-screen  absolute    w-[250px]  min-w-[200px] max-w-[400px]  z-40 bg-white cursor-pointer border top-0 left-0  ">
+      <div className="p-4 flex flex-col gap-2 shadow-lg h-screen  absolute    w-[250px]  min-w-[200px] max-w-[400px]  z-40 bg-[#DBB5B5] cursor-pointer border top-0 left-0  ">
         <button
           className="absolute right-3 text-red-800 text-2xl"
           onClick={() => dispatch(toggleMenu())}

@@ -27,7 +27,7 @@ const VideoCard = ({
 
   //thumbnail title,channelTitle,publishedat,viewcount
   return (
-    <div className="flex flex-col gap-1 shadow-lg w-[320px] h-[260px]   rounded-xl  ">
+    <div className="flex flex-col gap-1 shadow-lg w-[320px] h-[260px]   rounded-xl  bg-[#DBB5B5]">
       <div>
         <img className="rounded-xl " src={thumbnail} alt="thumbnail" />
       </div>

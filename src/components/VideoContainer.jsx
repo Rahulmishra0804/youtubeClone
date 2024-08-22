@@ -31,7 +31,7 @@ const VideoContainer = () => {
   return videos === null ? (
     <ShimmerUI />
   ) : (
-    <div className="flex flex-col  w-full flex-wrap px-4 gap-4 mt-4  justify-center items-center ">
+    <div className="flex flex-col  w-full flex-wrap px-4 gap-4 mt-4  justify-center items-center bg-[#F2EFE5] ">
       
       {searchVideos !== null ? (
         <div className="flex flex-col w-full md:w-3/4 gap-3 p-2">

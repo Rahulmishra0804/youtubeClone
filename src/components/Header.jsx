@@ -92,7 +92,7 @@ const Header = () => {
   // };
 
   return (
-    <div className="flex  justify-between items-center p-2 md:p-4 shadow-lg w-full relative ">
+    <div className="flex  justify-between items-center p-2 md:p-4 shadow-lg w-full relative bg-[#D0B8A8]">
       <ul className="flex   items-center   w-[40px] md:w-[220px]  md:gap-6  ">
         <li
           onClick={() => toggleMenuHandler()}
@@ -103,7 +103,7 @@ const Header = () => {
         <a href="/">
           <li className=" md:flex gap-1 hidden items-center  ">
             <SiYoutube className="text-4xl text-red-600" />
-            <span className="text-lg font-bold">Rahul's Youtube</span>
+            <span className="text-lg font-bold">Youtube</span>
           </li>
         </a>
       </ul>
